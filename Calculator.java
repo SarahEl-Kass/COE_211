@@ -28,31 +28,31 @@ public class Calculator {
 		subtract(num1, num2);
     }
 
-    public String add(int a, int b) {
+    public void add(int a, int b) {
         int ans= a + b;
 	String output = num1 + " + " + num2 + " = " + ans;
-	return output;
+	System.out.println(output);
       
     }
 
-    public String subtract(int a, int b) {
+    public void subtract(int a, int b) {
          int ans = a - b;
          String output = num1 + " - " + num2 + " = " + ans;
-	 return output;
+	System.out.println(output);
          
     }
 
-    public String multiply(int a, int b) {
+    public void multiply(int a, int b) {
 	int ans = a * b; 
         String output = num1 + " x " + num2 + " = " + ans;
-	return output;
+	System.out.println(output);
 	
          
     }
 
-    public String divide(int a, int b) {
+    public void divide(int a, int b) {
         double ans = a / b;
         String output = num1 + " / " + num2 + " = " + ans;
-        return output;
+	System.out.println(output);
     }
 }
